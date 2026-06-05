@@ -1,0 +1,16 @@
+[Unit]
+Description=CloudNotes Flask Application
+After=network.target
+
+[Service]
+Type=simple
+User=cloudnotes
+Group=cloudnotes
+WorkingDirectory=/opt/Linux-Service-Troubleshooting
+ExecStart=/usr/bin/env python3 /opt/Linux-Service-Troubleshooting/app/app.py
+Restart=on-failure
+RestartSec=5
+Environment=FLASK_ENV=production
+
+[Install]
+WantedBy=multi-user.target
