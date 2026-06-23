@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to CloudNotes",
+    "content": "This is your first note. Keep it safe!"
+  },
+  {
+    "id": 2,
+    "title": "Troubleshooting Tip",
+    "content": "Always check application logs and active ports."
+  }
+]

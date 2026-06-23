@@ -9,3 +9,7 @@ instance/
 .coverage
 htmlcov/
 *.log
+scripts/stdout.log
+scripts/stderr.log
+scripts/service.pid
+scripts/rogue.pid
